@@ -15,12 +15,6 @@ export default function Index() {
         {posts.map((post, index) => (
           <article key={index} className="border p-8">
             <h2 className="text-xl font-bold">{post.title}</h2>
-            {/* <a
-              href={`/posts/${post.slug}`}
-              className="bg-blue-500 text-white px-4 py-2 inline-block mt-5"
-            >
-              Read More
-            </a> */}
             <Link
               className="bg-blue-500 text-white px-4 py-2 inline-block mt-5"
               to={`/posts/${post.slug}`}
