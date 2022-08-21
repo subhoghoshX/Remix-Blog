@@ -6,8 +6,6 @@ import { useLoaderData, Link } from "@remix-run/react";
 export default function Index() {
   const { posts } = useLoaderData();
 
-  // console.log("=====", posts);
-
   return (
     <div>
       <h1 className="text-3xl font-bold">Hello</h1>
